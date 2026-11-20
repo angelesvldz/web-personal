@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Página Personal - Inicio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/miEstilo.css">
+</head>
+<body>
+  <header>
+    <div id="logo">
+      <h1>MiEspacio</h1>
+    </div>
+    <nav class="navPrincipal">
+      <ul>
+        <li><a href="index.html">Sobre Mí</a></li>
+        <li><a href="ejercicio.html">Ejercicio y Gym</a></li>
+        <li><a href="anime.html" id="btn_destacado">Mundo Anime</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="contenedor_principal">
+
+    <section class="tec">
+      <div class="tec_contenido">
+        <h2>¡Hola! soy Angeles</h2>
+        <p>Tengo <strong> 23 años</strong>. Soy estudiante, me apasiona el deporte y la cultura japonesa. Me gusta aprender cosas nuevas.</p>
+        <a href="#familia" id="btn_accion">Conoce más de mí</a>
+      </div>
+      <div class="imagen">
+        <img src="images/yo.jpeg" >
+      </div>
+    </section>
+
+    <section class="my-4">
+      <h2 class="text-center" style="color: var(--color_principal);">Ficha Personal</h2>
+      <div class="table-responsive bg-white p-3 rounded border">
+        <table class="table table-striped mb-0">
+          <thead class="table-primary">
+            <tr>
+              <th>Dato</th>
+              <th>Información</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Nombre completo</strong></td>
+              <td> Maria de Los Angeles Olmos Valadez</td>
+            </tr>
+            <tr>
+              <td><strong>Edad</strong></td>
+              <td>23 años</td>
+            </tr>
+            <tr>
+              <td><strong>¿Qué hago?</strong></td>
+              <td>Estudio desarrollo de software</td>
+            </tr>
+            <tr>
+              <td><strong>Pasatiempos</strong></td>
+              <td>Gym, Taekwondo y ver Anime</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="familia" class="my-5"> 
+      <h2 class="text-center mb-4" style="color: var(--color_principal);">Mi Familia</h2>
+      <div class="row g-4">
+        
+        <div class="col-md-4">
+          <article class="tarjeta_curso">
+            <img src="images/padres.jpg">
+            <div class="info_curso">
+              <h3>Mis Padres</h3>
+              <p>Son mi mayor apoyo en la vida y quienes me enseñaron a ser mejor cada día por mi y no por los demas.</p>
+              <span class="nivel">Pilar Fundamental</span>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-md-4">
+          <article class="tarjeta_curso">
+            <img src="images/hermanos.jpg">
+            <div class="info_curso">
+              <h3>Mis Hermanos</h3>
+              <p>Son mis confidentes  y siempre nos apoyamos en las buenas y en las malas.</p>
+              <span class="nivel">Compañeros de vida</span>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-md-4">
+          <article class="tarjeta_curso">
+            <img src="images/mascota.jpg">
+            <div class="info_curso">
+              <h3>Mi Mascota</h3>
+              <p>Es parte importante de la familia, siempre llena la casa de alegria.</p>
+              <span class="nivel">El consentido</span>
+            </div>
+          </article>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Maria de Los Angeles Olmos Valadez  - Página Web Personal</p>
+  </footer>
+
+</body>
+</html>
